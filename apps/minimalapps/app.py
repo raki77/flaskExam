@@ -89,7 +89,7 @@ def contact_complete():
         if not is_valid:
             redirect(url_for("contact"))        
             
-         # 메일을 보낸다
+        # 메일을 보낸다
         send_email(
             email,
             "문의 감사합니다.",
